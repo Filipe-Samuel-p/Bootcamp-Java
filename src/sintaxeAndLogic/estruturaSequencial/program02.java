@@ -1,3 +1,5 @@
+package sintaxeAndLogic.estruturaSequencial;
+
 import java.util.Scanner;
 
 public class program02 {
@@ -15,10 +17,6 @@ public class program02 {
         idade = sc.nextInt();
         System.out.println("A sua idade é: " + idade);
 
-
-
-
-
-        sc.close();
+        sc.close();  // fechando o objeto
     }
 }

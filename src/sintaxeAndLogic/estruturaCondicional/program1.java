@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package sintaxeAndLogic.estruturaCondicional;
+
 import java.util.Scanner;
 
 public class program1 {
@@ -6,7 +7,7 @@ public class program1 {
 
         Scanner sc = new Scanner(System.in);
         int minutos;
-        double valorPago, valorBasico = 50.00;
+        double valorBasico = 50.00;
         System.out.print("Digite a quantidade em minutos gasto em ligacao: ");
         minutos = sc.nextInt();
         if(minutos <= 100){
