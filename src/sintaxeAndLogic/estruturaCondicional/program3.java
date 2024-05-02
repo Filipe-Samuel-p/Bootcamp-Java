@@ -11,7 +11,6 @@ public class program3 {
         double num1 = sc.nextDouble();
 
         double finalNum = (num1 > 0) ? Math.sqrt(num1): Math.pow(num1, 2); //método pra potenciação
-
         System.out.println(finalNum);
 
 
