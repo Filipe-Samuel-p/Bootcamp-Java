@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Program3 {
    public static float fatorial(int x) {
-      int fat = 1;
        if(x == 0 || x == 1){
            return 1;
        }

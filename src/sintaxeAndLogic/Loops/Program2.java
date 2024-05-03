@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Program2 {
 
-    public static void bubbleSort(int vet[]){
-        int x = 0, aux;
+    public static void bubbleSort(int[] vet){
+        int aux;
         boolean change = true;
         while(change){
             change = false;
