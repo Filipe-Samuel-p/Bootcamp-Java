@@ -18,8 +18,6 @@ public class program1 {
             System.out.print("voce excedeu o tempo limite, o valor a ser pago é " + (novoValor + valorBasico));
         }
 
-
-
         sc.close();
     }
 }

@@ -7,12 +7,12 @@ public class program3 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite o um numero: ");
+        System.out.print("Digit a number: ");
         double num1 = sc.nextDouble();
 
         double finalNum = (num1 > 0) ? Math.sqrt(num1): Math.pow(num1, 2); //método pra potenciação
         System.out.println(finalNum);
 
-
+        sc.close();
     }
 }

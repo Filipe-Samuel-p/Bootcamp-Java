@@ -17,5 +17,6 @@ public class program2 {
         else{
             System.out.printf("O maior valor é %d", num2);
         }
+        sc.close();
     }
 }
