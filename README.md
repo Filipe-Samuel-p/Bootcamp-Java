@@ -27,7 +27,7 @@ O repositório tem muitas pastas e por isso deixo uma sugestão de visualizaçã
 
 3. 
 
-## Ingles 🇺🇸
+## English 🇺🇸🇦🇺🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
 This repository was created to store all the learnings from the java bootcamp that I am participating in. I was currently very interested in the Java language and because of that I signed up for a bootcamp. In addition to the bootcamp, I will also leave here all the Java learning that I will do on the side with books, articles, videos, etc.
 
