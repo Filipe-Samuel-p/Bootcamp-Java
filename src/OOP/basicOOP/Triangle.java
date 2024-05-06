@@ -6,9 +6,9 @@ public class Triangle {
     public double side2;
     public double side3;
 
-    public double area(double a, double b, double c){
-        double P = (a+b+c)/2;
-        double expression = P*(P-a)*(P-b)*(P-c);
+    public double area(){
+        double P = (side1+side2+side3)/2;
+        double expression = P*(P-side1)*(P-side2)*(P-side3);
         return Math.sqrt(expression);
     }
 }

@@ -25,8 +25,8 @@ public class Program1Part2 {
         Y.side2 = input.nextDouble();
         Y.side3 = input.nextDouble();
 
-        double areaX = X.area(X.side1,X.side2,X.side3);
-        double areaY = Y.area(Y.side1,Y.side2,Y.side3);
+        double areaX = X.area();
+        double areaY = Y.area();
 
         System.out.println("Area od triangle X: " + areaX);
         System.out.println("Area od triangle Y: " + areaY);
