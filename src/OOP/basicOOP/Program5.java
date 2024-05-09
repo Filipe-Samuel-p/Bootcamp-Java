@@ -21,9 +21,6 @@ public class Program5 {
 
         System.out.println("Media " + student.media());
         student.verification();
+        input.close();
     }
-
-
-
-
 }

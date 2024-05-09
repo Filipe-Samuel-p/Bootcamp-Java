@@ -15,6 +15,6 @@ public class program3 {
         rectangle.height = input.nextDouble();
 
         System.out.printf("The area %.2f, perimeter %.2f  and diagonal %.2f", rectangle.area(), rectangle.perimeter(),rectangle.diagonal());
-
+        input.close();
     }
 }
