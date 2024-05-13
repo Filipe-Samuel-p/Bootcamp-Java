@@ -14,11 +14,9 @@ public class Program2 {
         }
         int count= 0;
 
-        for(int index = 0; index < vector.length;index++)
-            if(vector[index] < 0){
-                System.out.printf("%d", vector[index]);
-                count += 1;
-        }
+       for(int i : vector){
+           System.out.print("\t" + i);
+       }
         System.out.printf("\nNegative numbers: %d", count);
 
         input.close();
