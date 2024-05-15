@@ -18,7 +18,6 @@ public class Program2 {
            System.out.print("\t" + i);
        }
         System.out.printf("\nNegative numbers: %d", count);
-
         input.close();
     }
 }
