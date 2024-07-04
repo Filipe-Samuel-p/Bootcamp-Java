@@ -1,4 +1,7 @@
 package sintaxeAndLogic.estruturaSequencial;
+//Prof - Ausberto S. Castro Vera
+// UENF - CCT - LCMAT - Ciencia da computacao
+//Aluno: Filipe Samuel Pires Dos Santos
 
 public class QuadraticEquation {
         private double a;
@@ -18,7 +21,6 @@ public class QuadraticEquation {
         public double getB() {
             return b;
         }
-
         public double getC() {
             return c;
         }
