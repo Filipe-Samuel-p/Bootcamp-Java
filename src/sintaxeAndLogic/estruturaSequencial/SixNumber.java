@@ -1,38 +1,40 @@
 package sintaxeAndLogic.estruturaSequencial;
 
+//Prof - Ausberto S. Castro Vera
+// UENF - CCT - LCMAT - Ciencia da computacao
+//Aluno: Filipe Samuel Pires Dos Santos
+
 import java.util.Scanner;
 
 public class SixNumber {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int number1 = input.nextInt();
+        int[] vectorNote = new int[6];
 
-        System.out.print("Enter a number: ");
-        int number2 = input.nextInt();
+        for (int index = 0; index < vectorNote.length; index++){
+            System.out.print("Enter a number: ");
+            int number = input.nextInt();
+            vectorNote[index] = number;
+        }
+        double numerator = 0;
+        for (int index = 0; index < vectorNote.length; index++){
+            if (index <= 3){
+                numerator += vectorNote[index];
+            }
+            else{
+                numerator += (2 * vectorNote[index]);
+            }
+        }
 
-        System.out.print("Enter a number: ");
-        int number3 = input.nextInt();
-
-        System.out.print("Enter a number: ");
-        int number4 = input.nextInt();
-
-        System.out.print("Enter a number: ");
-        int number5 = input.nextInt();
-
-        System.out.print("Enter a number: ");
-        int number6 = input.nextInt();
-
-        double numerator = (number1 * number2 *number3 *number4 * (2 * number5) * (2 * number6));
         double denominator = 1 + 1 + 1 + 1 + 2 + 2;
         double gradeAverage = numerator / denominator;
 
         if (gradeAverage >= 6){
-            System.out.println("Approved");
+            System.out.printf("Media = %f- Approved",gradeAverage);
         }
         else{
-            System.out.println("disapproved");
+            System.out.printf("Media = %f- disapproved", gradeAverage);
         }
 
     }

@@ -1,5 +1,7 @@
 package sintaxeAndLogic.estruturaSequencial;
-
+//Prof - Ausberto S. Castro Vera
+// UENF - CCT - LCMAT - Ciencia da computacao
+//Aluno: Filipe Samuel Pires Dos Santos
 public class LinearEquation {
         private double a;
         private double b;
@@ -16,7 +18,6 @@ public class LinearEquation {
             this.e = e;
             this.f = f;
         }
-
         public double getA() {
             return a;
         }
