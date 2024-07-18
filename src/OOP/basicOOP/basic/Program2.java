@@ -1,7 +1,6 @@
-package OOP.basicOOP;
+package OOP.basicOOP.basic;
 
 import java.util.Scanner;
-import OOP.basicOOP.Product;
 
 public class Program2 {
     public static void main(String[] args) {

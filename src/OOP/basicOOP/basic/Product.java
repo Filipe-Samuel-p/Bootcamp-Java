@@ -1,4 +1,4 @@
-package OOP.basicOOP;
+package OOP.basicOOP.basic;
 
 public class Product {
     public String name;

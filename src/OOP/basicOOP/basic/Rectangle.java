@@ -1,4 +1,4 @@
-package OOP.basicOOP;
+package OOP.basicOOP.basic;
 
 public class Rectangle {
     public double width;

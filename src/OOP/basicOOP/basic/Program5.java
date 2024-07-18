@@ -1,7 +1,7 @@
-package OOP.basicOOP;
+package OOP.basicOOP.basic;
 
 import java.util.Scanner;
-import OOP.basicOOP.Student;
+
 public class Program5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -1,4 +1,7 @@
 package sintaxeAndLogic.estruturaSequencial;
+//Prof - Ausberto S. Castro Vera
+// UENF - CCT - LCMAT - Ciencia da computacao
+//Aluno: Filipe Samuel Pires Dos Santos
 
 import java.util.Scanner;
 
@@ -18,10 +21,11 @@ public class Operations {
         int sum = number1 + number2;
         int sub = number1 - number2;
 
-        System.out.printf("%d\n", mult);
-        System.out.printf("%d\n", sum);
-        System.out.printf("%d\n", sub);
-        System.out.printf("%f",div );
+        System.out.println("Filipe Samuel Pires Dos Santos");
+        System.out.printf("multiplicacao: %d\n", mult);
+        System.out.printf("soma: %d\n", sum);
+        System.out.printf("subtração: %d\n", sub);
+        System.out.printf("divisão: %f",div );
 
 
 

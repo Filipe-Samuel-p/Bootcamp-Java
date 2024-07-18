@@ -69,7 +69,7 @@ public class LinearEquation {
             double d = input.nextDouble();
             double e = input.nextDouble();
             double f = input.nextDouble();
-
+            System.out.println("\nALUNO: Filipe Samuel Pires Dos Santos");
             LinearEquation eq = new LinearEquation(a, b, c, d, e, f);
             if (eq.isSolvable()) {
                 System.out.println("x is " + eq.getX() + " and y is " + eq.getY());

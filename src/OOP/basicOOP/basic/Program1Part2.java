@@ -1,6 +1,4 @@
-package OOP.basicOOP;
-
-import OOP.basicOOP.Triangle;
+package OOP.basicOOP.basic;
 
 import java.util.Scanner;
 

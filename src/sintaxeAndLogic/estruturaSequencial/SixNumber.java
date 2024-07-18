@@ -29,7 +29,7 @@ public class SixNumber {
 
         double denominator = 1 + 1 + 1 + 1 + 2 + 2;
         double gradeAverage = numerator / denominator;
-
+        System.out.println("\n Aluno: Filipe Samuel Pires Dos Santos");
         if (gradeAverage >= 6){
             System.out.printf("Media = %f- Approved",gradeAverage);
         }

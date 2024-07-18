@@ -47,7 +47,8 @@ public class QuadraticEquation {
 
         public static void main(String[] args) {
             java.util.Scanner input = new java.util.Scanner(System.in);
-            System.out.print("Enter a, b, c: ");
+            System.out.println("ALUNO: Filipe Samuel Pires Dos Santos");
+            System.out.print("Enter whit coef  a, b, c: ");
             double a = input.nextDouble();
             double b = input.nextDouble();
             double c = input.nextDouble();

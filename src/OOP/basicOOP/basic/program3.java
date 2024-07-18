@@ -1,7 +1,6 @@
-package OOP.basicOOP;
+package OOP.basicOOP.basic;
 
 import java.util.Scanner;
-import OOP.basicOOP.Rectangle;
 
 public class program3 {
     public static void main(String[] args) {
