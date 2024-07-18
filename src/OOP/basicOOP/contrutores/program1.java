@@ -29,7 +29,7 @@ public class program1 {
 
         //criando o objeto/contrutor
         program1 product = new program1(name,price,quantity);
-
+        // "obriga" o dev a ja entrar com os dados do objeto
     }
 
 }
