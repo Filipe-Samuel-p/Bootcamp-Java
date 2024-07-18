@@ -1,32 +1,12 @@
 package sintaxeAndLogic.estruturaSequencial;
 
-//Prof - Ausberto S. Castro Vera
-// UENF - CCT - LCMAT - Ciencia da computacao
-//Aluno: Filipe Samuel Pires Dos Santos
+public class PlpExercise {
+    public static void main(String[] args) {
 
-class Pessoa {
-    String nome;
-    int idade;
-
-    Pessoa(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-}
-
-class Docente extends Pessoa {
-    String disciplina;
-
-    Docente(String nome, int idade, String disciplina) {
-        super(nome, idade);
-        this.disciplina = disciplina;
-    }
-
-    void ministrarAula() {
-        System.out.println("Bom dia turma");
-    }
-
-    void avaliarAluno() {
-        System.out.println("Bom aluno, boas notas");
+        int a = 6,b = 20, sum = 0;
+        for (int index = a; index <= b; index++){
+            sum += index;
+        }
+        System.out.printf("Sum = %d", sum);
     }
 }
