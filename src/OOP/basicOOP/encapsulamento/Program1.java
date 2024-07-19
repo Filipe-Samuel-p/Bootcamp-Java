@@ -1,8 +1,6 @@
 package OOP.basicOOP.encapsulamento;
 // padrão para implementação de getters e setters
 
-
-
 public class Program1 {
     private String name;
     private Double price;
