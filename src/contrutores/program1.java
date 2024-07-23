@@ -1,6 +1,4 @@
-package OOP.basicOOP.contrutores;
-
-import OOP.basicOOP.basic.Program1;
+package contrutores;
 
 import java.util.Scanner;
 

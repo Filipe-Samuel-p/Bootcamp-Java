@@ -1,6 +1,6 @@
-package OOP.basicOOP.herancaEpolimorfismo.main;
+package OOP.basicOOP.heranca.main;
 
-import OOP.basicOOP.herancaEpolimorfismo.entites.BusinessAccount;
+import OOP.basicOOP.heranca.entites.BusinessAccount;
 
 public class Main {
     public static void main(String[] args) {

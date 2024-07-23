@@ -1,4 +1,4 @@
-package OOP.basicOOP.enumeracoes.entites;
+package enumeracoes.entites;
 
 public enum WorkerLevel {
     JUNIOR,

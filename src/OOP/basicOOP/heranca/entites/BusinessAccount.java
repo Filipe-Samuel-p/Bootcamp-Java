@@ -1,4 +1,4 @@
-package OOP.basicOOP.herancaEpolimorfismo.entites;
+package OOP.basicOOP.heranca.entites;
 
 
 //herança

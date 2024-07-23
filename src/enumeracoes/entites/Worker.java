@@ -1,7 +1,4 @@
-package OOP.basicOOP.enumeracoes.entites;
-import OOP.basicOOP.enumeracoes.entites.WorkerLevel;
-import OOP.basicOOP.enumeracoes.entites.Department;
-import OOP.basicOOP.enumeracoes.entites.HourContract;
+package enumeracoes.entites;
 
 import java.util.ArrayList;
 import java.util.List;

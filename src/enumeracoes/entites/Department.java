@@ -1,4 +1,4 @@
-package OOP.basicOOP.enumeracoes.entites;
+package enumeracoes.entites;
 
 public class Department {
     private String name;
