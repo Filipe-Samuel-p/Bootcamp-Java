@@ -73,9 +73,8 @@ public class Worker {
             contracts.remove(contract);
     }
 
-    public double income(int year, int month){
 
-    }
+
 
 
 }
