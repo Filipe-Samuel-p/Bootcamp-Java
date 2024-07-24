@@ -36,8 +36,6 @@ public class MainEmployee {
                 Employee emp = new Employee(name,hours,valuePerHour);
                 listEmployee.add(emp);
             }
-
-
         }
 
         for(Employee emp: listEmployee){
