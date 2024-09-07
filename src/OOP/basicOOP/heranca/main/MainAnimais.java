@@ -1,6 +1,6 @@
 package OOP.basicOOP.heranca.main;
 
-import OOP.basicOOP.heranca.entites.Animais;
+import OOP.basicOOP.heranca.entites.Animal;
 import OOP.basicOOP.heranca.entites.Mamiferos;
 import OOP.basicOOP.heranca.entites.Peixes;
 
@@ -11,9 +11,10 @@ import java.util.Scanner;
 public class MainAnimais {
     public static void main(String[] args) {
 
+
         Scanner input = new Scanner(System.in);
 
-        List<Animais> animaisLista = new ArrayList<>();
+        List<Animal> animaisLista = new ArrayList<>();
 
         System.out.println("Camelo\n");;
 
@@ -51,7 +52,7 @@ public class MainAnimais {
         animaisLista.add(tubarao);
 
         System.out.println("LISTA: \n");
-        for (Animais animais: animaisLista){
+        for (Animal animais: animaisLista){
             animais.dados();
         }
 

@@ -1,6 +1,6 @@
 package OOP.basicOOP.heranca.entites;
 
-public class Mamiferos extends Animais{
+public class Mamiferos extends Animal {
 
     private String alimento;
 

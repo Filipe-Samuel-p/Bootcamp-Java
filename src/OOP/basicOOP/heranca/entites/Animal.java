@@ -1,6 +1,6 @@
 package OOP.basicOOP.heranca.entites;
 
-public class Animais {
+public class Animal {
 
     private String nome;
     private Double comprimento;
@@ -9,11 +9,11 @@ public class Animais {
     private Double velocidade;
 
 
-    public Animais(){}
+    public Animal(){}
 
-    public Animais(Double comprimento, String ambiente,
-                   String nome, Integer numPatas,
-                   Double velocidade) {
+    public Animal(Double comprimento, String ambiente,
+                  String nome, Integer numPatas,
+                  Double velocidade) {
 
         this.comprimento = comprimento;
         this.ambiente = ambiente;

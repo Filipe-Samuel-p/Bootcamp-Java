@@ -1,6 +1,6 @@
 package OOP.basicOOP.heranca.entites;
 
-public class Peixes extends Animais{
+public class Peixes extends Animal {
 
     private String caracteristicas;
 
